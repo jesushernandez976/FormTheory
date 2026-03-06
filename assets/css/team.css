@@ -562,7 +562,7 @@ html {
 
 .gradient-bg {
   background: none;
-  background-image: url("../images/wave.png");
+  background-image: url("../images/wave.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -579,9 +579,10 @@ html {
   z-index: 0;
 }
 
+
 .gradient-bg2 {
   background: none;
-  background-image: url("../images/wave2.png");
+  background-image: url("../images/wave2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -598,9 +599,10 @@ html {
   z-index: 0;
 }
 
+
 .gradient-bg3 {
   background: none;
-  background-image: url("../images/wave3.png");
+  background-image: url("../images/wave.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -616,6 +618,24 @@ html {
   width: 100%;
   z-index: 0;
 }
+
+
+@media (max-width: 992px) {
+  .gradient-bg3 {
+    padding: 60px 20px;
+    background-position: right;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .gradient-bg3 {
+    padding: 40px 15px;
+    background-position: right;
+  }
+}
+
+
 .team-card .card-img-wrapper {
   position: relative;
   overflow: hidden;

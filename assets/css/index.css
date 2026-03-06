@@ -626,6 +626,21 @@ html {
   z-index: 0;
 }
 
+@media (max-width: 992px) {
+  .gradient-bg {
+    padding: 60px 20px;
+    background-position: right;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .gradient-bg {
+    padding: 40px 15px;
+    background-position: right;
+  }
+}
+
 .gradient-bg2 {
   background: none;
   background-image: url("../images/wave.jpg");
@@ -643,6 +658,21 @@ html {
   height: 100%;
   width: 100%;
   z-index: 0;
+}
+
+@media (max-width: 992px) {
+  .gradient-bg2 {
+    padding: 60px 20px;
+    background-position: right;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .gradient-bg2 {
+    padding: 40px 15px;
+    background-position: right;
+  }
 }
 
 .gradient-bg3 {
@@ -664,7 +694,21 @@ html {
   z-index: 0;
 }
 
+@media (max-width: 992px) {
+  .gradient-bg3 {
+    padding: 60px 20px;
+    background-position: center;
+    background-size: fit;
+  }
+}
 
+/* Mobile */
+@media (max-width: 576px) {
+  .gradient-bg3 {
+    padding: 40px 15px;
+    background-position: top center;
+  }
+}
 
 .word-row-container {
   display: flex;

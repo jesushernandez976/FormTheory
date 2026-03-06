@@ -668,7 +668,7 @@ html {
 
 .gradient-bg {
   background: none;
-  background-image: url("../images/wave.png");
+  background-image: url("../images/wave.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -687,7 +687,7 @@ html {
 
 .gradient-bg2 {
   background: none;
-  background-image: url("../images/wave2.png");
+  background-image: url("../images/wave2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -706,7 +706,7 @@ html {
 
 .gradient-bg3 {
   background: none;
-  background-image: url("../images/wave3.png");
+  background-image: url("../images/wave.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
